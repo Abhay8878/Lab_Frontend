@@ -1,0 +1,197 @@
+{
+  "app": {
+    "title": "Lab Portal"
+  },
+  "navbar": {
+    "lang": "Language",
+    "account": {
+      "header": "Signed in as",
+      "logout": "Logout"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "orderList": "Order List",
+    "orderRequest": "Orders Request",
+    "chat": "Chat"
+  },
+  "chat": {
+    "title": "Chat",
+    "placeholder": "Type a message...",
+    "noMessages": "No messages yet",
+    "noMessagesSayHi": "No messages yet. Say hi!",
+    "online": "Online",
+    "offline": "Offline",
+    "typing": "Typing...",
+    "send": "Send",
+    "messagesHeader": "Messages",
+    "newMessage": "New Message",
+    "loadingChats": "Loading chats...",
+    "noConversations": "No conversations found.",
+    "searchToStart": "Search for users to start chatting.",
+    "startedConversation": "Started a conversation",
+    "yourMessages": "Your Messages",
+    "selectContact": "Select a contact from the list or search for someone new to start chatting.",
+    "searchPlaceholder": "Search practices by name or email...",
+    "newLabel": "New",
+    "chatAction": "Chat",
+    "noPracticesFound": "No practices found matching"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "genInfo1": {
+      "title": "Total Products",
+      "disc": "Across all categories"
+    },
+    "genInfo2": {
+      "title": "Active Orders",
+      "disc": "In production & on hold"
+    },
+    "genInfo3": {
+      "title": "Monthly Billing",
+      "disc": "Last 30 days (approx.)"
+    },
+    "genInfo4": {
+      "title": "On-Time Delivery",
+      "disc": "Completed in SLA"
+    },
+    "chart1": {
+      "title": "Products by Category"
+    },
+    "chart2": {
+      "title": "Product Status Distribution"
+    },
+    "chart3": {
+      "title": "Monthly Billing & Profit"
+    },
+    "chart4": {
+      "title": "Billing by Product Type"
+    }
+  },
+  "orderList": {
+    "title": "Placed Orders List",
+    "orderId": "Order ID",
+    "table": {
+      "headers": {
+        "sno.": "S.NO.",
+        "h1": "Product List",
+        "h2": "Priority",
+        "h3": "Status",
+        "h4": "Order Date",
+        "h5": "Delivery",
+        "h6": "Actions"
+      }
+    },
+    "orderTracking": "Order Tracking",
+    "trackingIdLabel": "Tracking ID",
+    "status": "Status",
+    "carrier": "Carrier",
+    "destination": "Destination",
+    "notSpecified": "Not specified"
+  },
+  "orderReq": {
+    "title": "Requested Order List",
+    "table": {
+      "headers": {
+        "sno.": "S.NO.",
+        "h1": "Product List",
+        "h2": "Priority",
+        "h3": "Status",
+        "h4": "Order Date",
+        "h5": "Delivery",
+        "h6": "Actions"
+      }
+    }
+  },
+  "orderReqSheet": {
+    "title": "Requested Order Details",
+    "orderId": "Order ID",
+    "card1": {
+      "title": "General Information",
+      "h1": "Case Type",
+      "h2": "Priority",
+      "h3": "Status"
+    },
+    "card2": {
+      "title": "Case Requirements",
+      "h1": "Shade",
+      "h2": "Tooth Numbers",
+      "substructure": "Substructure",
+      "finish": "Finish",
+      "numberOfStages": "Number of Stages",
+      "material": "Material"
+    },
+    "card3": {
+      "title": "Photos",
+      "alt": "No photos uploaded",
+      "uploadedPhoto": "Uploaded Photo",
+      "imageRepo": "Images",
+      "openUrl": "Open",
+      "addImage": "Add Image",
+      "noMoreImages": "No more images available for this patient",
+      "availableImages": "Available Patient Images"
+    },
+    "card4": {
+      "title": "Billing",
+      "h1": "Payment Status",
+      "h2": "Amount",
+      "pendingStatus": "Pending",
+      "usd": "USD"
+    },
+    "card5": {
+      "title": "Shipping",
+      "h1": "Method",
+      "h2": "Address",
+      "courrier": "Courrier"
+    },
+    "card6": {
+      "title": "Design Note",
+      "h1": "Note",
+      "alt": "No design notes provided."
+    },
+    "card7": {
+      "title": "Scans",
+      "alt": "No 3D file uploaded"
+    }
+  },
+  "next": "Next",
+  "previous": "Previous",
+  "reject": "Reject",
+  "accept": "Accept",
+  "ifRejects": {
+    "heading": "Are you sure you want to reject this order?",
+    "placeholder": "Enter rejection reason...",
+    "counter": "",
+    "err": "Rejection reason is required."
+  },
+  "ifAccepts": {
+    "heading": "Are you sure you want to approve this order?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "viewDetail": "View details",
+  "changeStatus": "Change status",
+  "ifChangeStatus": {
+    "heading": "Change Order Status",
+    "desc": "Select a status. If you choose Shipped, add shipping details.",
+    "status": "Status",
+    "selectStatus": "Select status",
+    "shipped": "Shipped",
+    "provider": "Provider",
+    "selectProvider": "Select provider",
+    "FedEx": "FedEx",
+    "UPF": "UPF",
+    "trackingId": "Tracking ID",
+    "enterTrackingId": "Enter tracking ID"
+  },
+  "cancel": "Cancel",
+  "ok": "OK",
+  "saving": "Saving...",
+  "close": "Close",
+  "characters": "characters",
+  "charLimitReached": "Character limit reached",
+  "toast": {
+    "orderApproved": "Order has been",
+    "approved": "Approved"
+  }
+}

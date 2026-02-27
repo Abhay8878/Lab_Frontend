@@ -1,0 +1,197 @@
+{
+  "app": {
+    "title": "Portail du Laboratoire"
+  },
+  "navbar": {
+    "lang": "Langue",
+    "account": {
+      "header": "Connecté en tant que",
+      "logout": "Se déconnecter"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "orderList": "Liste des commandes",
+    "orderRequest": "Demandes de commande",
+    "chat": "Discussion"
+  },
+  "chat": {
+    "title": "Discussion",
+    "placeholder": "Écrire un message...",
+    "noMessages": "Aucun message pour le moment",
+    "noMessagesSayHi": "Pas encore de messages. Dites bonjour !",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "typing": "En train d'écrire...",
+    "send": "Envoyer",
+    "messagesHeader": "Messages",
+    "newMessage": "Nouveau message",
+    "loadingChats": "Chargement des discussions...",
+    "noConversations": "Aucune conversation trouvée.",
+    "searchToStart": "Recherchez des utilisateurs pour commencer à discuter.",
+    "startedConversation": "A commencé une conversation",
+    "yourMessages": "Vos messages",
+    "selectContact": "Sélectionnez un contact dans la liste ou recherchez quelqu'un de nouveau pour commencer à discuter.",
+    "searchPlaceholder": "Rechercher des cabinets par nom ou email...",
+    "newLabel": "Nouveau",
+    "chatAction": "Discuter",
+    "noPracticesFound": "Aucun cabinet trouvé ne correspond à"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "genInfo1": {
+      "title": "Total des produits",
+      "disc": "Toutes catégories confondues"
+    },
+    "genInfo2": {
+      "title": "Commandes actives",
+      "disc": "En production et en attente"
+    },
+    "genInfo3": {
+      "title": "Facturation mensuelle",
+      "disc": "30 derniers jours (approx.)"
+    },
+    "genInfo4": {
+      "title": "Livraison à temps",
+      "disc": "Terminées dans le SLA"
+    },
+    "chart1": {
+      "title": "Produits par catégorie"
+    },
+    "chart2": {
+      "title": "Répartition du statut des produits"
+    },
+    "chart3": {
+      "title": "Facturation mensuelle et profit"
+    },
+    "chart4": {
+      "title": "Facturation par type de produit"
+    }
+  },
+  "orderList": {
+    "title": "Liste des commandes passées",
+    "orderId": "ID de commande",
+    "table": {
+      "headers": {
+        "sno.": "N°",
+        "h1": "Liste des produits",
+        "h2": "Priorité",
+        "h3": "Statut",
+        "h4": "Date de commande",
+        "h5": "Livraison",
+        "h6": "Actions"
+      }
+    },
+    "orderTracking": "Suivi de commande",
+    "trackingIdLabel": "ID de suivi",
+    "status": "Statut",
+    "carrier": "Transporteur",
+    "destination": "Destination",
+    "notSpecified": "Non spécifié"
+  },
+  "orderReq": {
+    "title": "Liste des commandes demandées",
+    "table": {
+      "headers": {
+        "sno.": "N°",
+        "h1": "Liste des produits",
+        "h2": "Priorité",
+        "h3": "Statut",
+        "h4": "Date de commande",
+        "h5": "Livraison",
+        "h6": "Actions"
+      }
+    }
+  },
+  "orderReqSheet": {
+    "title": "Détails de la commande demandée",
+    "orderId": "ID de commande",
+    "card1": {
+      "title": "Informations générales",
+      "h1": "Type de cas",
+      "h2": "Priorité",
+      "h3": "Statut"
+    },
+    "card2": {
+      "title": "Exigences du cas",
+      "h1": "Teinte",
+      "h2": "Numéros de dents",
+      "substructure": "Sous-structure",
+      "finish": "Finition",
+      "numberOfStages": "Nombre d'étapes",
+      "material": "Matériau"
+    },
+    "card3": {
+      "title": "Photos",
+      "alt": "Aucune photo téléchargée",
+      "uploadedPhoto": "Photo téléchargée",
+      "imageRepo": "Images",
+      "openUrl": "Ouvrir",
+      "addImage": "Ajouter une image",
+      "noMoreImages": "Plus d'images disponibles pour ce patient",
+      "availableImages": "Images du patient disponibles"
+    },
+    "card4": {
+      "title": "Facturation",
+      "h1": "Statut du paiement",
+      "h2": "Montant",
+      "pendingStatus": "En attente",
+      "usd": "USD"
+    },
+    "card5": {
+      "title": "Expédition",
+      "h1": "Méthode",
+      "h2": "Adresse",
+      "courrier": "Courrier"
+    },
+    "card6": {
+      "title": "Note de conception",
+      "h1": "Note",
+      "alt": "Aucune note de conception fournie."
+    },
+    "card7": {
+      "title": "Scans",
+      "alt": "Aucun fichier 3D téléchargé"
+    }
+  },
+  "next": "Suivant",
+  "previous": "Précédent",
+  "reject": "Rejeter",
+  "accept": "Accepter",
+  "ifRejects": {
+    "heading": "Êtes-vous sûr de vouloir rejeter cette commande ?",
+    "placeholder": "Entrez la raison du rejet...",
+    "counter": "",
+    "err": "La raison du rejet est requise."
+  },
+  "ifAccepts": {
+    "heading": "Êtes-vous sûr de vouloir approuver cette commande ?",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "viewDetail": "Voir les détails",
+  "changeStatus": "Changer le statut",
+  "ifChangeStatus": {
+    "heading": "Changer le statut de la commande",
+    "desc": "Sélectionnez un statut. Si vous choisissez Expédiée, ajoutez les détails d'expédition.",
+    "status": "Statut",
+    "selectStatus": "Sélectionner un statut",
+    "shipped": "Expédiée",
+    "provider": "Transporteur",
+    "selectProvider": "Sélectionner un transporteur",
+    "FedEx": "FedEx",
+    "UPS": "UPS",
+    "trackingId": "ID de suivi",
+    "enterTrackingId": "Entrez l'ID de suivi"
+  },
+  "cancel": "Annuler",
+  "ok": "OK",
+  "saving": "Enregistrement...",
+  "close": "Fermer",
+  "characters": "caractères",
+  "charLimitReached": "Limite de caractères atteinte",
+  "toast": {
+    "orderApproved": "La commande a été",
+    "approved": "Approuvée"
+  }
+}
