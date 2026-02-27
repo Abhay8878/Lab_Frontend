@@ -48,6 +48,13 @@ const config: Config = {
   },
   plugins: [],
 };
+
+export const App_config = {
+  brandname: "AOA LAb",
+    // BRAND_LOGO: "https://orthodonticproductsonline.com/wp-content/uploads/2013/03/com_form2content_p3_f13871_77.jpg", // We can change brand logo from here
+BRAND_LOGO:"https://static.vecteezy.com/system/resources/previews/034/899/022/non_2x/dental-clinic-logo-design-dentist-logo-vector.jpg"
+
+};
  
 export default config;
  

@@ -8,6 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "../components/ui/dropdown-menu";
 import { Avatar, AvatarFallback } from "../components/ui/avatar";
+import { App_config } from "../../tailwind.config";
 
 import BellIcon from "../assets/notifications.svg";
 import { useOrdersRequest } from "../hooks/orderReqHook";
@@ -27,8 +28,33 @@ export default function Navbar() {
 
   return (
     <header className="h-14 w-full flex items-center justify-between px-10 bg-brand-800 text-white border-b border-white/10 shadow-md">
-      <h1 className="text-xl font-semibold tracking-wide">{t.app.title}</h1>
+      <div className="flex items-center gap-4">
+        {/* Circular Logo */}
+        <div
+          className="
+  h-10 w-10
+  rounded-full
+  bg-white
+  flex items-center justify-center
+  shadow-md
+  ring-2 ring-white/30
+  overflow-hidden
+  transition-all duration-300
+  hover:scale-105
+"
+        >
+          <img
+            src={App_config.BRAND_LOGO}
+            alt="Logo"
+            className="h-7 w-auto object-contain"
+          />
+        </div>
 
+        {/* Brand Name */}
+        <h1 className="text-2xl font-semibold tracking-wide">
+          {App_config.brandname}
+        </h1>
+      </div>
       <div className="flex items-center gap-5">
         {/* Language Dropdown */}
         <DropdownMenu>
