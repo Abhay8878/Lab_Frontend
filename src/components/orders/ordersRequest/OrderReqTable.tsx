@@ -154,7 +154,7 @@ type PaginatedResponse<T> = {
 };
 const priorityStyles: Record<string, { badge: string; row?: string }> = {
   MEDIUM: { badge: "bg-blue-100 text-blue-400 border-blue-400" },
-  HIGH: { badge: "bg-orange-100 text-orange-400 border-orange-400" },
+  HIGH: { badge: "bg-red-100 text-red-400 border-red-400" },
   LOW: { badge: "bg-gray-100 text-gray-400 border-gray-400" },
 };
 
