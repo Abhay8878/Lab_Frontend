@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Portail du Laboratoire"
+    "title": "Portail du Laboratoire",
+     "footer": "Tous droits réservés."
   },
   "navbar": {
     "lang": "Langue",

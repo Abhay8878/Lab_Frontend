@@ -1,6 +1,7 @@
 import strings from "../../language";
 import { useLanguage } from "../../language/useLanguage";
 import OrdersTable from "./OrderTable";
+import { App_config } from "../../../tailwind.config";
 export default function Orders() {
   const { language } = useLanguage();
   const t = strings[language];
@@ -10,6 +11,9 @@ export default function Orders() {
 
       <div className="rounded-xl border-2 border-gray-100 overflow-hidden bg-background ">
         <OrdersTable />
+            <div className="mt-8 text-center text-sm text-gray-400">
+                &copy; {new Date().getFullYear()}  {App_config.brandname} All rights Reserved
+              </div>
       </div>
     </div>
   );

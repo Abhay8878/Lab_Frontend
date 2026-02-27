@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Lab Portal"
+    "title": "Lab Portal",
+    "footer": "All rights reserved."
   },
   "navbar": {
     "lang": "Language",

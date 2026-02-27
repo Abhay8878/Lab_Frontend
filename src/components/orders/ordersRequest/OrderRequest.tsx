@@ -1,8 +1,8 @@
 import strings from "../../../language";
 import { useLanguage } from "../../../language/useLanguage";
 import OrdersReqTable from "./OrderReqTable";
-import { OrdersRequestProvider } from "../../../utils/OrderReqContex";
-
+// import { OrdersRequestProvider } from "../../../utils/OrderReqContex";
+import { App_config } from "../../../../tailwind.config";
 export default function OrdersRequest() {
   const { language } = useLanguage();
   const t = strings[language];
@@ -12,6 +12,9 @@ export default function OrdersRequest() {
 
       <div className="rounded-xl border-2 border-gray-100 overflow-hidden bg-background">
         <OrdersReqTable />
+            <div className="mt-8 text-center text-sm text-gray-400">
+                &copy; {new Date().getFullYear()}  {App_config.brandname} All rights Reserved
+              </div>
       </div>
     </div>
   );
