@@ -9,10 +9,10 @@ export default function Orders() {
     <div className="space-y-4 ">
       <h2 className="text-2xl font-semibold">{t.orderList.title}</h2>
 
-      <div className="rounded-xl border-2 border-gray-100 overflow-hidden bg-background ">
+      <div className="rounded-xl overflow-hidden bg-background ">
         <OrdersTable />
             <div className="mt-8 text-center text-sm text-gray-400">
-                &copy; {new Date().getFullYear()}  {App_config.brandname} All rights Reserved
+                &copy; {new Date().getFullYear()}  {App_config.brandname} {t.app.footer}
               </div>
       </div>
     </div>
